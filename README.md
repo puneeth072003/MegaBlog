@@ -28,11 +28,11 @@ git clone https://github.com/anuj123upadhyay/MegaBlog.git
 ```
 
 2. Install dependencies:
-
-```bash
-cd frontend && npm install
-cd ../backend && npm install
-```
+- Frontend:
+    ```bash
+    npm install
+    npm run dev
+    ```
 
 3. Set up environment variables in the `.env` file for MongoDB URI, JWT secret, etc.
 
